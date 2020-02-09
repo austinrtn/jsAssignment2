@@ -1,4 +1,4 @@
-# jsAssignment3
+# JS ASSIGNMENT #3
 Austin Kolongowski
 2/12/20
 CIS 258
