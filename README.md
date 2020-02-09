@@ -4,3 +4,5 @@ Austin Kolongowski
 CIS 258
 
 Allows you to get the average, min and max for a set of numbers
+
+http://htmlpreview.github.io/?https://github.com/austinrtn/jsAssignment3/blob/master/index.html
