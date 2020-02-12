@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src='./src.js'>  </script>
 
     <meta charset="utf-8">
@@ -14,10 +15,17 @@
         font-size: 24px;
         text-align: center;
       }
+      input:focus{
+        border: 4px solid #47d4ff;
+        transition-duration:.5s;
+
+      }
       .answer{
         width:25%;
         height:200px;
-        font-size:84px;
+        font-size:100px;
+        background-color: #00f249;
+        color: white;
       }
       button{
         width:15%;
@@ -37,7 +45,7 @@
   <body>
     <div align ='center' id='inputDiv'>
       <script type="text/javascript">
-        for(var i = 0; i < 5; i++)
+        for(var i = 0; i < 2; i++)
           addInput();
       </script>
     </div><br>
