@@ -11,7 +11,8 @@ function getValues(){
 
   if(values.length > 0)
     return values;
-  else return [0];
+    
+  else return null;
 }
 
 function getAverage(){
@@ -41,5 +42,5 @@ function addInput(){
 function reset(){
   document.getElementById("answer").value = 0;
   document.getElementById("inputDiv").innerHTML = "";
-  for(var i = 0; i < 5; i++) addInput();
+  for(var i = 0; i < 2; i++) addInput();
 }
